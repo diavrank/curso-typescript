@@ -26,5 +26,6 @@ class Utilidad {
         return radio * radio * this.pi;
     }
 }
-console.log('PI: ',Utilidad.pi);
-console.log('Area del circulo: ',Utilidad.calcularAreaDeCirculo(5));
+
+console.log('PI: ', Utilidad.pi);
+console.log('Area del circulo: ', Utilidad.calcularAreaDeCirculo(5));
