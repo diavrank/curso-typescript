@@ -27,10 +27,10 @@ let misNumeros=new Lista<number>();
 misNumeros.agregar(10);
 misNumeros.agregar(5);
 
-console.log('misNumeros: ',misNumeros)
+console.log('misNumeros: ',misNumeros.sumar())
 
 let misCadenas=new Lista<string>();
 misCadenas.agregar('hola ');
 misCadenas.agregar('mundo');
 
-console.log('misCadenas: ',misCadenas);
+console.log('misCadenas: ',misCadenas.sumar());
